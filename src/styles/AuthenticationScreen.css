@@ -1,0 +1,56 @@
+.authScreen {
+  display: flex;
+}
+
+.registerErrors {
+  background-color: rgba(255, 0, 0, 0.3);
+  padding: 15px;
+  border-radius: 20px;
+  height: max-content;
+}
+
+.firebaseuiRegister,
+#firebaseui-auth-container {
+  padding: 20px;
+  margin: 20px;
+  background-color: var(--twitter-background);
+  border-radius: 20px;
+  height: max-content;
+}
+
+.registerForm input,
+#firebaseui-auth-container input {
+  min-width: 250px;
+  padding: 10px;
+  border: 0;
+  margin: 10px 10px;
+}
+
+.registerFormGroup {
+  display: flex;
+}
+
+.registerButton {
+  background-color: var(--twitter-color) !important;
+  border: 0;
+  color: #fff !important;
+  font-weight: 800 !important;
+  text-transform: inherit !important;
+  border-radius: 30px !important;
+  height: 50px;
+  margin-top: 20px !important;
+}
+
+#firebaseui-auth-container button {
+  cursor: pointer;
+  background-color: var(--twitter-color) !important;
+  border: 0;
+  color: #fff !important;
+  font-weight: 800 !important;
+  text-transform: inherit !important;
+  border-radius: 30px !important;
+  height: 35px;
+  margin-top: 20px !important;
+  min-width: 100px;
+  margin: 5px;
+}

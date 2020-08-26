@@ -1,0 +1,4 @@
+.messages {
+    display: flex;
+    min-width: 600px;
+}
